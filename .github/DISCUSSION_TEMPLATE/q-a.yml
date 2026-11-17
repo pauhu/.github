@@ -1,0 +1,10 @@
+body:
+- type: markdown
+  attributes:
+    value: Discussions are public; do not paste keys or personal data.
+- type: textarea
+  id: details
+  attributes:
+    label: What is your question?
+  validations:
+    required: true
