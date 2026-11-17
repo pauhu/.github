@@ -1,0 +1,26 @@
+name: Improve documentation
+description: Improve documentation
+labels:
+- docs
+body:
+- type: markdown
+  attributes:
+    value: Issues are public; do not paste keys or personal data.
+- type: textarea
+  id: page
+  attributes:
+    label: Which page needs a change?
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: What is unclear?
+  validations:
+    required: true
+- type: textarea
+  id: wording
+  attributes:
+    label: What wording do you suggest?
+  validations:
+    required: true
