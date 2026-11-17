@@ -1,0 +1,32 @@
+name: Report a problem
+description: Report a problem
+labels:
+- bug
+body:
+- type: markdown
+  attributes:
+    value: Issues are public; do not paste keys or personal data.
+- type: textarea
+  id: steps
+  attributes:
+    label: What did you do?
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: What did you expect?
+  validations:
+    required: true
+- type: textarea
+  id: happened
+  attributes:
+    label: What happened?
+  validations:
+    required: true
+- type: textarea
+  id: client
+  attributes:
+    label: Which client and version did you use?
+  validations:
+    required: true
