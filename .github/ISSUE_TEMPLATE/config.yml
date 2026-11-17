@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+- name: Developer questions
+  url: https://github.com/orgs/pauhu/discussions
+  about: Ask and discuss with the community.
+- name: Sales, partnerships and procurement
+  url: https://pauhu.ai/contact/
+  about: Contact us privately.
+- name: Security reports
+  url: https://github.com/pauhu/.github/security/policy
+  about: Report a vulnerability privately.
