@@ -1,0 +1,32 @@
+name: Propose an idea
+description: Propose an idea
+labels:
+- proposal
+body:
+- type: markdown
+  attributes:
+    value: Issues are public; do not paste keys or personal data.
+- type: textarea
+  id: need
+  attributes:
+    label: What do you need?
+  validations:
+    required: true
+- type: textarea
+  id: source
+  attributes:
+    label: Which product or source does it concern?
+  validations:
+    required: true
+- type: textarea
+  id: outcome
+  attributes:
+    label: What outcome would help?
+  validations:
+    required: true
+- type: textarea
+  id: use
+  attributes:
+    label: How would you use it?
+  validations:
+    required: true
