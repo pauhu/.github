@@ -1,0 +1,33 @@
+name: Report a device result
+description: Report a device result
+labels:
+- device-report
+body:
+- type: markdown
+  attributes:
+    value: Issues are public; do not paste keys or personal data.
+- type: textarea
+  id: steps
+  attributes:
+    label: What did you try?
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: What did you expect?
+  validations:
+    required: true
+- type: textarea
+  id: result
+  attributes:
+    label: What happened?
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: Which general device type and browser version did you use? Do not include
+      identifiers.
+  validations:
+    required: true
