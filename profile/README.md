@@ -19,7 +19,7 @@ Tools at Origin uses Python and pinned dependencies; a mean calculation measured
 
 Use the released open menu items locally without a key. Pauhu Ltd offers a free developer key for building, testing and demos: 50 requests per day, up to 5 per minute, valid for 90 days. [Get a developer key and read the terms](https://pauhu.dev/developer-terms/).
 
-Build and ship your own product for your customers. For production use of the service, each end-customer device needs a licensed key. Licensed keys and their price are on [pauhu.ai](https://pauhu.ai/); sales are opening soon. Developer keys are not for production or end customers.
+Build and ship your own product for your customers. You set your own price for your product; Pauhu does not set or limit it. For production use of the service, each end-customer device needs a licensed key. Licensed keys and their price are on [pauhu.ai](https://pauhu.ai/); sales are opening soon. Developer keys are not for production or end customers.
 
 **Disclosure**
 
