@@ -21,6 +21,10 @@ Use the released open menu items locally without a key. Pauhu Ltd offers a free 
 
 Build and ship your own product for your customers. You set your own price for your product; Pauhu does not set or limit it. For production use of the service, each end-customer device needs a licensed key. Licensed keys and their price are on [pauhu.ai](https://pauhu.ai/); sales are opening soon. Developer keys are not for production or end customers.
 
+### Building inside an organisation
+
+If you build for a company, non-profit or public-sector organisation, your users may be colleagues or citizens rather than paying customers. Your organisation can hold the licensed keys for its use of pauhu.ai, with one key per end-user device, or choose annual seat licences on [pauhu.eu](https://pauhu.eu/) for its data needs. These cover different services. Your organisation decides how to recover its costs internally. Sales are opening soon.
+
 **Disclosure**
 
 - We provide the released open items and developer access within the stated limits.
