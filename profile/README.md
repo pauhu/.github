@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | [internet-at-origin v0.1.0](https://github.com/pauhu/internet-at-origin/tree/v0.1.0) | Publisher-source fetch and caller-supplied citations | Planned for a later revision |
 | [tools-at-origin v0.1.3](https://github.com/pauhu/tools-at-origin/tree/v0.1.3) | Local calculations with digest-based receipts (not signed) | [Ingredients](https://github.com/pauhu/tools-at-origin/tree/v0.1.3/ingredients) |
-| [quantum-safe-encryption v0.1.0](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0) | Post-quantum key exchange and signatures (NIST FIPS 203/204) through an open library | [Ingredients](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0/ingredients) |
+| [quantum-safe-encryption v0.1.0](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0) | Post-quantum key encapsulation (ML-KEM-768, FIPS 203) and signatures (ML-DSA-65, FIPS 204) through an open library | [Ingredients](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0/ingredients) |
 | folders-at-origin (coming) | Selected files and their origins | Planned |
 | systems-at-origin (coming) | Granted system records and their origins | Planned |
 | measurements-at-origin (coming) | Instrument readings and calibration references | Planned |
