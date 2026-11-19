@@ -23,7 +23,7 @@ Build and ship your own product for your customers. You set your own price for y
 
 ### Building inside an organisation
 
-If you build for a company, non-profit or public-sector organisation, your users may be colleagues or citizens rather than paying customers. Your organisation can hold the licensed keys for its use of pauhu.ai, with one key per end-user device, or choose annual seat licences on [pauhu.eu](https://pauhu.eu/) for its data needs. These cover different services. Your organisation decides how to recover its costs internally. Sales are opening soon.
+If you build for a company (including one owned by a city or the state) or a public body, your users may be colleagues or citizens rather than paying customers. Your organisation can hold the licensed keys for its use of pauhu.ai, with one key per end-user device, or choose annual seat licences on [pauhu.eu](https://pauhu.eu/) for its data needs. These cover different services. Your organisation decides how to recover its costs internally. Sales are opening soon.
 
 **Disclosure**
 
