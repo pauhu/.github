@@ -21,6 +21,8 @@ These examples use Python 3.12, Git and a POSIX shell. Each starts in a separate
 
 ### Internet at Origin
 
+Measured time to first result: 3.98 seconds.
+
 ```sh
 git clone --branch v0.1.0 https://github.com/pauhu/internet-at-origin.git
 cd internet-at-origin
@@ -33,6 +35,8 @@ printf '%s\n' '{"sources":[{"title":"Pauhu","url":"https://pauhu.eu/","retrieved
 The citation example formats caller-supplied information; it does not fetch or verify the source.
 
 ### Tools at Origin
+
+Measured time to first result: 3.11 seconds.
 
 ```sh
 git clone --branch v0.1.3 https://github.com/pauhu/tools-at-origin.git
@@ -47,6 +51,8 @@ The locked packages target x86-64 Linux with glibc 2.34 or newer.
 
 ### Quantum-safe encryption
 
+Measured time to first result: 26.91 seconds.
+
 This example also needs CMake and a C compiler. It obtains the pinned source identified in the included dependency inventory.
 
 ```sh
@@ -56,10 +62,16 @@ src=$(python3 -c 'import json; print(json.load(open("ingredients/sbom.cdx.json")
 git init -q ../pqc-source
 git -C ../pqc-source fetch --depth=1 "$src" "$(cut -f3 dependencies.lock)"
 git -C ../pqc-source checkout --detach FETCH_HEAD
-./build.sh ../pqc-source
+CMAKE_BUILD_PARALLEL_LEVEL=4 ./build.sh ../pqc-source
 python3 -c 'import pqc; p,s=pqc.keygen("sign"); m=b"example"; print("signature verified:",pqc.verify(p,m,pqc.sign(s,m)))'
 # Expected: signature verified: True
 ```
+
+Times are observations from clean directories on one Linux x86-64 run with the prerequisites already installed; downloads and build times vary.
+
+## How each item is made
+
+Releases use pinned inputs where needed, pass tests and checks for exposed keys and internal details, receive independent review, and are published at a named tag. Tools at Origin and quantum-safe-encryption also check offline operation and publish measured ingredients. Internet at Origin is a source-fetching client; its ingredients are planned for a later revision.
 
 Where available, ingredients describe dependencies and measured resources for named test fixtures. These are fixture-run measurements, not production costs.
 
