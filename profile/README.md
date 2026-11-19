@@ -37,7 +37,7 @@ These examples use Python 3.12, Git and a POSIX shell. Each starts in a separate
 
 ### Internet at Origin
 
-Measured time to first result: 3.98 seconds.
+Measured time to first result: 4.33 seconds.
 
 ```sh
 git clone --branch v0.1.0 https://github.com/pauhu/internet-at-origin.git
@@ -52,14 +52,14 @@ The citation example formats caller-supplied information; it does not fetch or v
 
 ### Tools at Origin
 
-Measured time to first result: 3.11 seconds.
+Measured time to first result: 3.50 seconds.
 
 ```sh
 git clone --branch v0.1.3 https://github.com/pauhu/tools-at-origin.git
 cd tools-at-origin
 python3.12 -m venv .venv
 .venv/bin/pip install --require-hashes --only-binary=:all: -r requirements.lock
-.venv/bin/python tools_origin.py mean --unit m 1 2 6 | python3 -c 'import json,sys; print("mean:",json.load(sys.stdin)["result"])'
+.venv/bin/python tools_origin.py mean --unit m 1 2 6 | python3.12 -c 'import json,sys; print("mean:",json.load(sys.stdin)["result"])'
 # Expected: mean: 3.0
 ```
 
@@ -67,27 +67,27 @@ The locked packages target x86-64 Linux with glibc 2.34 or newer.
 
 ### Quantum-safe encryption
 
-Measured time to first result: 26.91 seconds.
+Measured time to first result: 30.04 seconds.
 
-This example also needs CMake and a C compiler. It obtains the pinned source identified in the included dependency inventory.
+This example also needs Git, CMake, a C compiler and build tools, Go 1.20 or newer, Perl, standard shell utilities and TLS certificates. It obtains the pinned source identified in the included dependency inventory.
 
 ```sh
 git clone --branch v0.1.0 https://github.com/pauhu/quantum-safe-encryption.git
 cd quantum-safe-encryption
-src=$(python3 -c 'import json; print(json.load(open("ingredients/sbom.cdx.json"))["components"][0]["externalReferences"][0]["url"].split("/tree/")[0]+".git")')
+src=$(python3.12 -c 'import json; print(json.load(open("ingredients/sbom.cdx.json"))["components"][0]["externalReferences"][0]["url"].split("/tree/")[0]+".git")')
 git init -q ../pqc-source
 git -C ../pqc-source fetch --depth=1 "$src" "$(cut -f3 dependencies.lock)"
 git -C ../pqc-source checkout --detach FETCH_HEAD
 CMAKE_BUILD_PARALLEL_LEVEL=4 ./build.sh ../pqc-source
-python3 -c 'import pqc; p,s=pqc.keygen("sign"); m=b"example"; print("signature verified:",pqc.verify(p,m,pqc.sign(s,m)))'
+python3.12 -c 'import pqc; p,s=pqc.keygen("sign"); m=b"example"; print("signature verified:",pqc.verify(p,m,pqc.sign(s,m)))'
 # Expected: signature verified: True
 ```
 
-Times are observations from clean directories on one Linux x86-64 run with the prerequisites already installed; downloads and build times vary.
+Each time is a single wall-clock observation from a clean directory on Linux x86-64, including downloads and installation or build. Prerequisites were already installed; times vary.
 
 ## How each item is made
 
-Releases use pinned inputs where needed, pass tests and checks for exposed keys and internal details, receive independent review, and are published at a named tag. Tools at Origin and quantum-safe-encryption also check offline operation and publish measured ingredients. Internet at Origin is a source-fetching client; its ingredients are planned for a later revision.
+Each linked item has a named release tag. The listed versions have been tested and checked for internal details. Tools at Origin and quantum-safe-encryption received independent review and publish measured ingredients. Quantum-safe-encryption also checks offline operation. Internet at Origin is a source-fetching client; its ingredients are planned for a later revision.
 
 Where available, ingredients describe dependencies and measured resources for named test fixtures. These are fixture-run measurements, not production costs.
 
