@@ -17,13 +17,13 @@ Tools at Origin uses Python and pinned dependencies; a mean calculation measured
 
 ## For builders
 
-Use the released open menu items locally without a key. Pauhu Ltd offers a free developer key for building, testing and demos: 50 requests per day, up to 5 per minute, valid for 90 days. [Get a developer key and read the terms](https://pauhu.dev/developer-terms/).
+Use the released open menu items locally without a key. Pauhu Ltd offers a free developer key for building, testing and demos: 50 requests per day, resetting daily at 00:00 UTC, up to 5 per minute, valid for 90 days. [Get a developer key and read the terms](https://pauhu.dev/developer-terms/).
 
-Build and ship your own product for your customers. You set your own price for your product; Pauhu does not set or limit it. For production use of Pauhu-hosted services, each end-customer device needs a licensed key. These key rules do not apply to running the released open tools independently. Licensed keys and their price are on [pauhu.ai](https://pauhu.ai/); sales are opening soon. Developer keys are not for production or end customers.
+Build and ship your own product for your customers. You set your own price for your product; Pauhu does not set or limit it. For production use of Pauhu-hosted services, each end-customer device needs a licensed key. These key rules do not apply to running the released open tools independently. Licensed keys will be available on [pauhu.ai](https://pauhu.ai/). Developer keys are not for production or end customers.
 
 ### Building inside an organisation
 
-You may build for a company, including one owned by a city or the state. You may also build for a public body. Your users may be colleagues. For production use of Pauhu-hosted services, the developer terms require a licensed key for each end-customer device. See [pauhu.eu](https://pauhu.eu/) for its data services. Sales are opening soon.
+You can build for private companies, publicly owned companies and public bodies, including tools used by colleagues. The same developer-key and production-key terms apply.
 
 **Disclosure**
 
@@ -87,7 +87,7 @@ Each time is a single wall-clock observation from a clean directory on Linux x86
 
 ## How each item is made
 
-Each linked item has a named release tag. The listed versions have been tested and checked for internal details. Tools at Origin and quantum-safe-encryption received independent review and publish measured ingredients. Quantum-safe-encryption also checks offline operation. Internet at Origin is a source-fetching client; its ingredients are planned for a later revision.
+Each released item has a versioned tag and recorded tests and internal-detail checks. Tools at Origin and Quantum-safe encryption also have independent review records and published ingredients. Quantum-safe encryption has a recorded offline test. Internet at Origin's ingredients are not yet published.
 
 Where available, ingredients describe dependencies and measured resources for named test fixtures. These are fixture-run measurements, not production costs.
 
