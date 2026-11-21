@@ -9,6 +9,10 @@
 | [internet-at-origin v0.1.0](https://github.com/pauhu/internet-at-origin/tree/v0.1.0) | Publisher-source fetch and caller-supplied citations | Planned for a later revision |
 | [tools-at-origin v0.1.3](https://github.com/pauhu/tools-at-origin/tree/v0.1.3) | Local calculations with digest-based receipts (not signed) | [Ingredients](https://github.com/pauhu/tools-at-origin/tree/v0.1.3/ingredients) |
 | [quantum-safe-encryption v0.1.0](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0) | Post-quantum key encapsulation (ML-KEM-768, FIPS 203) and signatures (ML-DSA-65, FIPS 204) through an open library | [Ingredients](https://github.com/pauhu/quantum-safe-encryption/tree/v0.1.0/ingredients) |
+| [on-device-models](https://github.com/pauhu/on-device-models) | Model cards for ten open-weight models intended for local use on your own device (text, sight, hearing, voice, meaning, reading, objects, regions, recognising, depth), each pinned to an exact upstream revision under its own licence; weights are not re-hosted and local running is not yet verified for every model | [Model cards](https://github.com/pauhu/on-device-models#readme) |
+| [mcp](https://github.com/pauhu/mcp) | Sourced answers for your agent over MCP, with the source shown on the answer | [Ingredients](https://github.com/pauhu/mcp#readme) |
+| [device-firewall](https://github.com/pauhu/device-firewall) | Network and firewall configuration for HTTPS access to the Pauhu AI API | [Ingredients](https://github.com/pauhu/device-firewall#readme) |
+| [pauhu-eu-connector](https://github.com/pauhu/pauhu-eu-connector) | Dataset entries and usage policies for the European Language Data Space connector | [Ingredients](https://github.com/pauhu/pauhu-eu-connector#readme) |
 | folders-at-origin (coming) | Selected files and their origins | Planned |
 | systems-at-origin (coming) | Granted system records and their origins | Planned |
 | measurements-at-origin (coming) | Instrument readings and calibration references | Planned |
