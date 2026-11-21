@@ -14,8 +14,8 @@
 | [device-firewall](https://github.com/pauhu/device-firewall) | Network and firewall configuration for HTTPS access to the Pauhu AI API | [Ingredients](https://github.com/pauhu/device-firewall#readme) |
 | [pauhu-eu-connector](https://github.com/pauhu/pauhu-eu-connector) | Dataset entries and usage policies for the European Language Data Space connector | [Ingredients](https://github.com/pauhu/pauhu-eu-connector#readme) |
 | [folders-at-origin](https://github.com/pauhu/folders-at-origin) | Signed plans over a folder you granted, bound to your key and device; the key stays in your OS secure store (library preview, no command-line tool yet) | [Ingredients](https://github.com/pauhu/folders-at-origin#readme) |
-| systems-at-origin (coming) | Granted system records and their origins | Planned |
-| measurements-at-origin (coming) | Instrument readings and calibration references | Planned |
+| [systems-at-origin](https://github.com/pauhu/systems-at-origin) | Granted system records and their origins | [Ingredients](https://github.com/pauhu/systems-at-origin#readme) |
+| [measurements-at-origin](https://github.com/pauhu/measurements-at-origin) | Instrument readings and calibration references | [Ingredients](https://github.com/pauhu/measurements-at-origin#readme) |
 
 Tools at Origin uses Python and pinned dependencies; a mean calculation measured on a 383,110-byte tiny-voca sample took 72.666 ms and 19.383 MiB peak memory, with 2,008,699 bytes read, 5,142 bytes written and zero counted network attempts per fixture run.
 
