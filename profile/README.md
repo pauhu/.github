@@ -96,3 +96,7 @@ Each released item has a versioned tag and recorded tests and internal-detail ch
 Where available, ingredients describe dependencies and measured resources for named test fixtures. These are fixture-run measurements, not production costs.
 
 Questions and ideas are welcome in [Discussions](https://github.com/orgs/pauhu/discussions). Security reports: see [SECURITY.md](https://github.com/pauhu/.github/blob/main/SECURITY.md).
+
+## Pro-human AI
+
+We signed the Pro-Human AI Declaration. Read [what we do today and what is still proposed](https://github.com/pauhu/.github/blob/main/DECLARATION.md).
