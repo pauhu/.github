@@ -13,7 +13,7 @@
 | [mcp](https://github.com/pauhu/mcp) | Sourced answers for your agent over MCP, with the source shown on the answer | [Ingredients](https://github.com/pauhu/mcp#readme) |
 | [device-firewall](https://github.com/pauhu/device-firewall) | Network and firewall configuration for HTTPS access to the Pauhu AI API | [Ingredients](https://github.com/pauhu/device-firewall#readme) |
 | [pauhu-eu-connector](https://github.com/pauhu/pauhu-eu-connector) | Dataset entries and usage policies for the European Language Data Space connector | [Ingredients](https://github.com/pauhu/pauhu-eu-connector#readme) |
-| folders-at-origin (coming) | Selected files and their origins | Planned |
+| [folders-at-origin](https://github.com/pauhu/folders-at-origin) | Signed plans over a folder you granted, bound to your key and device; the key stays in your OS secure store (library preview, no command-line tool yet) | [Ingredients](https://github.com/pauhu/folders-at-origin#readme) |
 | systems-at-origin (coming) | Granted system records and their origins | Planned |
 | measurements-at-origin (coming) | Instrument readings and calibration references | Planned |
 
