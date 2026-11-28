@@ -1,6 +1,6 @@
 # Pauhu
 
-Pauhu is a modular AI system. Each repository below is one part you can plug into your own tools, with sourced answers and a receipt.
+Pauhu is a modular AI system. The tools below are parts you plug into your own tools; the methods are open write-ups of practice you can run with your own tools.
 
 ## The Pauhu Menu
 
@@ -19,7 +19,7 @@ Ask Pauhu sourced questions from your terminal.
 Client for reading a local measurement record with its origin; checks come from the Pauhu demo backend.
 
 **[Pauhu Edge AI](https://github.com/pauhu/edge-ai)**  
-Pauhu senses (reading, hearing, speaking, seeing) on your own device; the model pack is served by the Pauhu demo backend.
+Pauhu senses (reading, hearing, speaking, seeing) on your own device, where your device and model pack support them; the model pack is served by the Pauhu demo backend.
 
 **[Pauhu Bench](https://github.com/pauhu/llm-benchmark)**  
 Client for Pauhu small-model benchmarks served by the Pauhu demo backend.
@@ -92,7 +92,7 @@ A read-only graph over your databases, every fact traced to its row.
 Civilian robot risk assessment and pre-action safety checks; checks alone do not make a robot safe.
 
 **[Pauhu CAN Bus Logging](https://github.com/pauhu/can-bus)**  
-Read-only vehicle and machine data logs on your device, OBD2 included.
+Vehicle and machine data logs on your device, OBD2 included; the method excludes control commands and writes unless separately authorised, and needs interface safeguards.
 
 **[Pauhu Medical Devices](https://github.com/pauhu/medical-devices)**  
 Read-only analysis of device logs kept local, with privacy and safety review checks; no diagnosis or alarm handling.
@@ -100,7 +100,7 @@ Read-only analysis of device logs kept local, with privacy and safety review che
 
 ---
 
-**Developer key:** free, sign in with GitHub at https://api.pauhu.ai/v1/dev/github/start. Valid 90 days, 50 requests a day (reset 00:00 UTC), at most 5 a minute. Reading any repository is free. Methods are CC BY 4.0; everything else is Apache 2.0; answers from the Pauhu demo backend need the key.
+**Developer key:** free, sign in with GitHub at https://api.pauhu.ai/v1/dev/github/start. Valid 90 days, 50 requests a day (reset 00:00 UTC), at most 5 a minute. Reading any repository is free. METHOD.md texts are CC BY 4.0 and repository code is Apache 2.0, as each repository's LICENSE and NOTICE files state; answers from the Pauhu demo backend need the key.
 
 Copyright © 2026 Pauhu Ltd.
 
