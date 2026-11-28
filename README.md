@@ -1,4 +1,4 @@
-# Pauhu client
+# Pauhu
 
 Pauhu organisation defaults: security policy.
 
@@ -8,3 +8,5 @@ Pauhu organisation defaults: security policy.
 - MCP clients: [server.json](server.json) (remote, header `Authorization: Bearer <key>`).
 
 Status: proposed. Licence: Apache-2.0.
+
+Copyright © 2026 Pauhu Ltd. Written and maintained by Pauhu Ltd.
